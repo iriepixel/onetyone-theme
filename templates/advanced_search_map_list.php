@@ -85,17 +85,7 @@ if ($where_currency == 'before') {
                 </ul>
             </div>
         </div>    
-        
-        <div class="col-md-3">
-            <div class="dropdown form-control types_icon" id="categ_list" >
-                <div data-toggle="dropdown" id="adv_categ" class="filter_menu_trigger" data-value="all"> <?php esc_html_e('All Types','wpestate');?> <span class="caret caret_filter"></span> </div>           
-                <input type="hidden" name="filter_search_type[]" value="">
-                <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_categ">
-                    <?php  print wp_kses($categ_select_list,$allowed_html_list); ?>
-                </ul>        
-            </div>
-        </div>
-        
+
         <div class="col-md-3">
             <div class="dropdown form-control bedrooms_icon" >
                 <div data-toggle="dropdown" id="beds_no" class="filter_menu_trigger" data-value="all"><?php echo  esc_html__( 'Bedrooms','wpestate');?> <span class="caret caret_filter"></span> </div>           
@@ -105,8 +95,18 @@ if ($where_currency == 'before') {
                 </ul>
             </div>
         </div>
+        
+        <div class="col-md-6">
+            <div class="dropdown form-control types_icon" id="categ_list" >
+                <div data-toggle="dropdown" id="adv_categ" class="filter_menu_trigger" data-value="all"> <?php esc_html_e('All Types','wpestate');?> <span class="caret caret_filter"></span> </div>           
+                <input type="hidden" name="filter_search_type[]" value="">
+                <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_categ">
+                    <?php  print wp_kses($categ_select_list,$allowed_html_list); ?>
+                </ul>        
+            </div>
+        </div>
                  
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
             <div class="dropdown form-control baths_icon" >
                 <div data-toggle="dropdown" id="baths_no" class="filter_menu_trigger" data-value="all"><?php echo esc_html__( 'Baths','wpestate');?> <span class="caret caret_filter"></span> </div>           
                 <input type="hidden" name="baths_no" id="baths_no_input"  value="">
@@ -114,7 +114,7 @@ if ($where_currency == 'before') {
                     <?php echo wpestate_get_baths_dropdown(); ?>
                 </ul>
             </div>
-        </div>
+        </div> -->
         
         <div class="col-md-6">
             <div class="adv_search_slider">

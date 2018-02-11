@@ -438,21 +438,25 @@ textarea {
 .locations .places_wrapper {
   margin-bottom: 10px !important;
   overflow: hidden; }
+  .locations .places_wrapper .places2 {
+    opacity: 1; }
 
 .locations .places_wrapper:hover .places2 {
-  transform: scale(1.05);
-  opacity: 1; }
+  transform: scale(1.05); }
 
 .locations .places_wrapper:hover .category_name {
-  background-color: rgba(111, 177, 208, 0);
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); }
+  background-color: rgba(111, 177, 208, 0); }
+
+.locations .places_wrapper:hover .listing-hover-gradient {
+  opacity: .3; }
 
 .locations .places_wrapper2 {
   width: calc(50% - 5px);
-  background-color: transparent; }
+  background-color: #000000; }
 
 .locations .listing-hover-gradient {
-  background: none; }
+  background-color: #000000;
+  opacity: 0; }
 
 .locations .listing-hover {
   background-color: #000 !important;

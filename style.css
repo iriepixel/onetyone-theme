@@ -1192,7 +1192,10 @@ a.panel-title--property:hover {
   .widget-container.advanced_search_sidebar h3 {
     display: none; }
 
-.page-template-blog_list .widget_recent_entries a, .page-template-blog_list
+.page-template-blog_list .widget_recent_entries a,
+.single-post .widget_recent_entries a, .page-template-blog_list
+.widget-area-sidebar li a,
+.single-post
 .widget-area-sidebar li a {
   font-weight: 400;
   color: #767676; }

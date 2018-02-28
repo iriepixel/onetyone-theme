@@ -1348,6 +1348,14 @@ textarea { resize: none; }
 						color: $color--text-extra-light-grey !important;
 					}
 // ========== BLOG SINGLE
+// blog header
+.header_media{
+	.single-post & {
+		img{
+			margin: auto
+		}
+	}
+}
 // blog search
 .search_form_but{
 	height: 45px;

@@ -1166,6 +1166,9 @@ a.panel-title--property:hover {
 #inforoom {
   color: #a3a3a3 !important; }
 
+.single-post .header_media img {
+  margin: auto; }
+
 .search_form_but {
   height: 45px; }
 

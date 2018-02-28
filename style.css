@@ -1042,8 +1042,9 @@ a.panel-title--property:hover {
   font-weight: 400;
   transition: all 0.3s ease-out; }
 
-.comment-form .form-submit #submit {
-  float: right; }
+.comment-form .form-submit #submit,
+.comment-form #submit {
+  float: right !important; }
 
 #submit_booking_front_instant:hover,
 #submit_booking_front:hover,
